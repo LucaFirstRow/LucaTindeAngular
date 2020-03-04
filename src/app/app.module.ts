@@ -10,6 +10,7 @@ import { PerfilListComponent } from './components/perfil-list/perfil-list.compon
 import { DescartesListComponent } from './components/descartes-list/descartes-list.component';
 import { MatchListComponent } from './components/match-list/match-list.component';
 import { ContactosListComponent } from './components/contactos-list/contactos-list.component';
+import { MateriaComponent } from './models/materia/materia.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContactosListComponent } from './components/contactos-list/contactos-li
     PerfilListComponent,
     DescartesListComponent,
     MatchListComponent,
-    ContactosListComponent
+    ContactosListComponent,
+    MateriaComponent
   ],
   imports: [
     BrowserModule,
